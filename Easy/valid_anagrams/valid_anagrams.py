@@ -25,8 +25,6 @@ Space Complexity: O(n)
 anagram = Solution()
 print(anagram.isAnagram("lust", "slut"))
 """
-""
-
 #My solution : Valid Anagram
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
