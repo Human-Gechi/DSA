@@ -46,6 +46,7 @@ class Solution:
 """
 Time complexity: O(n)
 Space Complexity: O(1)
-"""
+
 anagram = Solution()
 print(anagram.isAnagram("Lust", "Slut"))
+"""
