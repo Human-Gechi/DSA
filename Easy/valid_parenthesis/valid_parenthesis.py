@@ -17,8 +17,8 @@ class Solution:
 
         for char in s:
             if char in mapping:
-                pops = stack.pop() if stack else False
-                if mapping[char] != pops:
+                popped_value = stack.pop() if stack else False
+                if mapping[char] != popped_value:
                     return False
             else:
                 stack.append(char)
@@ -28,3 +28,4 @@ class Solution:
             return False
 
 #Space complexity: O(n)
+#Time complexity: O(??)
